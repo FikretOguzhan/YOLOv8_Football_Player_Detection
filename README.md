@@ -1,6 +1,7 @@
 # YOLOv8_Football_Player_Detection
 
-![yolov8](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/7d96aad1-d027-4d81-8ecd-9f6bd0db3c50)
+![indir](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/c66101aa-e9b1-4b70-850e-f413f47e23ab)
+
 
 ### What is YOLO?
 YOLO (You Only Look Once) is a popular deep learning algorithm in the field of object detection. YOLO stands out among object detection models for its fast and real-time performance.
@@ -36,33 +37,41 @@ YOLOv8 is also highly efficient and flexible supporting numerous export formats 
 In this project, raw data was first obtained from kaggle. The data received from Kaggle consisted of 511 unannotated images. One of the most logical and useful ways to annotate these images is to use Roboflow. You can access Roboflow and kaggle dataset from the links below.
 
 Kaggle Dataset: https://www.kaggle.com/datasets/ihelon/football-player-segmentation
+
 Roboflow: https://universe.roboflow.com/
 
 #### Step 2: Annotating
 As I mentioned before, I used roboflow at this stage and you can see images of this stage below.
 
-![roboflow1](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/45b62fca-488c-4c24-ad70-5a525b3275d5)
+![roboflow1](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/760cc3c4-1474-4b7f-a270-8dcdc73a04ac)
 
-![roboflow2](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/31876f83-7184-4678-bd45-6d0f3dedcf93)
+![roboflow2](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/a97b3a38-bcb1-416c-9825-163af60c40a6)
+
+
 
 #### Step 3: Training
 This part is quite simple. You can find a detailed explanation in the colab file I shared above.
 
 #### Step 4: Evaluating
 1- Confusion Matrix:
-![confusion_matrix](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/7377f265-85e9-4d9d-9e15-464abb3ae959)
+![confusion_matrix](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/c1a75f0b-3bee-4949-8de0-864d22c79931)
+
 2- Graphs:
-![loss_graphs](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/2c833829-fe3a-4b6b-bddd-0845e66b69b4)
+![loss_graphs](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/b2f64fdd-912b-4539-9dc4-87193a429e06)
+
 3- Image Results:
 
-![result1](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/ae51bf2a-0ac5-4c82-acf6-d443b9e203d4)
-![result2](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/366019ea-7d15-4f54-8798-4705978a1d2a)
+![result1](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/6179cfbc-84e1-47b0-95e9-619823b4046e)
+
+![result2](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/23f8e483-3a06-4e9b-808e-757c0dbc6313)
+
+
 
 According to these results, we can say that our model is quite successful.
 
 ### Final Result
 
-![final_video](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/336d45df-fb90-46da-992f-93a96efc573f)
+![final_video](https://github.com/FikretOguzhan/YOLOv8_Football_Player_Detection/assets/85081014/aedc2f9f-4bc6-44d4-9acd-b043247714d5)
 
 
 
